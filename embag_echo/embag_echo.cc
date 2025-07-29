@@ -2,7 +2,7 @@
 #include <vector>
 #include <boost/program_options.hpp>
 
-#include "lib/view.h"
+#include <embag/view.h>
 
 int main(int argc, char *argv[]) {
   namespace po = boost::program_options;

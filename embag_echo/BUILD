@@ -4,7 +4,7 @@ cc_binary(
     name = "embag_echo",
     srcs = ["embag_echo.cc"],
     deps = [
-        "//lib:embag",
+        "//:embag",
         "@boost//:program_options",
     ],
 )
